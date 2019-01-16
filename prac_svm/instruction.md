@@ -7,3 +7,8 @@ refer to my SVM.ipynb
 ## precision is ill-defined
 precision = TP / (TP + FP) = 0 if predictor does not predict positive class - TP is 0
 recall = TP / (TP + FN) = 0 if predictor does not predict positive class - TP is 0
+
+## gamma in RBF kernel
+Technically, the gamma parameter is the inverse of the standard deviation of the RBF kernel (Gaussian function), which is used as similarity measure between two points. Intuitively, a small gamma value defines a Gaussian function with a large variance. In this case, two points can be considered similar even if are far from each other. On the other hand, a large gamma value means defining a Gaussian function with a small variance and in this case, two points are considered similar just if they are close to each other. 
+
+USE GRID SEARCH TO FIND THE GAMMA 
