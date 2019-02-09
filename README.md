@@ -1,2 +1,11 @@
 # machine learning practical 
-based on course L42, Machine Learning, at Cambridge
+
+This repository stores some (popular) machine learning practicals:
+* Support Vector Machine
+* Neural Networks
+* Decision Tree
+  * Random Forest
+  * Gradient Tree Boosting
+  * XGBoost
+* Long Short-Term Memory RNN
+

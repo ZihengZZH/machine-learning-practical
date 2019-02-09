@@ -5,7 +5,7 @@ You will be working with the [Keras](https://keras.io/) framework, which allows 
 
 ## classification results
 | activation | dropout | batch_norm | epoch | accuracy |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | sigmoid | NA | NA | 30 | 84.74% |
 | RELU | NA | NA | 30 | 86.75% |
 | RELU | Y | NA | 30 | 87.68% |
