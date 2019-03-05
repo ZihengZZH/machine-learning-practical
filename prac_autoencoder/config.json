@@ -1,5 +1,5 @@
 {
-    "model":{
+    "vae":{
         "batch_size": 100,
         "original_dim": 784,
         "latent_dim": 2,
@@ -7,5 +7,8 @@
         "epochs": 50,
         "epsilon_std": 1.0,
         "save_dir": "./saved_models"
+    },
+    "dae":{
+        
     }
 }
