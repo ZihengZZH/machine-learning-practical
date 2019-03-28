@@ -4,11 +4,14 @@
         "original_dim": 784,
         "latent_dim": 2,
         "intermediate_dim": 256,
-        "epochs": 50,
+        "epochs": 70,
         "epsilon_std": 1.0,
-        "save_dir": "./saved_models"
+        "save_dir": "./vae_saved_models"
     },
-    "dae":{
-        
+    "lstm":{
+        "data_dim": 10,
+        "hidden": 100,
+        "epochs": 100,
+        "plot": 0
     }
 }
