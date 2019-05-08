@@ -10,3 +10,5 @@ This repository stores some (popular) machine learning practicals:
 * [Long Short-Term Memory RNN](https://github.com/ZihengZZH/machine_learning_practical/tree/master/prac_lstm)
 * [Autoencoder](https://github.com/ZihengZZH/machine_learning_practical/tree/master/prac_autoencoder)
   * Variational Autoencoder (VAE)
+  * LSTM-Autoencoder
+* [Inception](https://github.com/ZihengZZH/machine_learning_practical/tree/master/prac_inception)
