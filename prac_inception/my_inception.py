@@ -19,6 +19,7 @@ TO DO
 LOAD DATASET
 EVALUATE MODEL
 """
+
 path = ""
 
 X_train = np.load(path + "X_train.npy")

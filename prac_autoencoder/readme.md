@@ -150,6 +150,19 @@ Regardless of the method chosen (reconstruction, prediction, or composite), once
 
 ![](images/lstm-encoder.png)
 
+
+## Convolutional Autoencoder
+
+The main idea behind autoencoders is to reduce the input into a latent state-space with fewer dimensions and then try to reconstruct the input from this representation. The first part is called encoding and the second step is the decoding. 
+
+One of the interesting parts of this implementation is the use of **upsampling**. Inverting the convolutional layer can be rather challenging due to the overlap of the kernels. Most of deep learning frameworks include deconvolution layers (or transposed convolution layers) which is an inverted convolutional layer. Even though these layers intuitively make sense in reconstructing the input, they come with the disadvantage of generating checkerboard artifacts. To overcome this issue, they have been replaced by **upsampling** and simple convolutional layers. 
+
+[Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
+[Upsampling with Transposed Convolution](https://towardsdatascience.com/up-sampling-with-transposed-convolution-9ae4f2df52d0)
+
+![](images/convolution_ae.png)
+
+
 ## notes
 
 > How to use the GPU in keras implementation?
