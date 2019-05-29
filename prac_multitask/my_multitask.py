@@ -10,6 +10,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D, Convolution2D, Activation
 from keras.optimizers import SGD
+from keras.utils import plot_model
 
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix
@@ -98,6 +99,7 @@ def compile_model(dropouts=[.25, .25, .5],
     model.compile(loss=build_masked_loss(),
                 optimizer='adam',
                 metrics=[masked_accuracy])
+    plot_model(model, show_shapes=True, to_file='./images/multitask_dnn.png')
     return model
 
 

@@ -12,3 +12,4 @@ This repository stores some (popular) machine learning practicals:
   * Variational Autoencoder (VAE)
   * LSTM-Autoencoder
 * [Inception](https://github.com/ZihengZZH/machine_learning_practical/tree/master/prac_inception)
+* [Gaussian Mixture Model](https://github.com/ZihengZZH/machine_learning_practical/tree/master/prac_gmm)
